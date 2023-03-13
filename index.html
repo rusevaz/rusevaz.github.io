@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Mini portfolio website - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Ruseva Zulfikar</h2>
+                    <h3 class="profile__profession">Data Analyst</h3>
+
+                    <Ul class="profile__social">
+                        <a href="https://www.instagram.com/rusevaz/" target="_blank" class="profile_social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rusevaz/" target="_blank" class="profile_social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/rusevaz" target="_blank" class="profile_social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </Ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">About</h3>
+                        <p class="profile__infoo-description">
+                            I'm a data analyst certified by IBM. My data analysis skills are EDA, Data Wrangling, Cohort Analysis, Funnel Analysis, Churn Analysis, and creating Dashboards. I can also do machine learning such as Regression, Classification, Clustering, and Recommender Systems.
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/CV - RUSEVA DATA ANALYST.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <a href="https://wa.me/+6281259925255" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/rusevaz/" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects 
+                    </button>
+
+                    <button class="filters__button" data-target="#skills">
+                        Skills 
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">.ipynb</span>
+                                    <h3 class="projects__title">Used Car Price Prediction - SLR vs MLR vs Polynomial Method</h3>
+                                    <a href="https://github.com/rusevaz/usedcar-price-prediction/blob/main/main_3_0.ipynb" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">.slide</span>
+                                    <h3 class="projects__title">Funnel Analysis - RevoU Virtual Lab</h3>
+                                    <a href="https://docs.google.com/presentation/d/1ohkkkyhinv-ePQ2Yziw9dGC2KMRbjobCl5nLEr_eG2o/edit?usp=sharing" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Power BI</span>
+                                    <h3 class="projects__title">Sales Dashboard</h3>
+                                    <a href="https://drive.google.com/file/d/1B6Xn1luUgE8XxVqQGyqkYyoFmHe3Vu97/view?usp=sharing" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">.slide</span>
+                                    <h3 class="projects__title">Segmentation E-Commerce Company Customer - RFM Method</h3>
+                                    <a href="https://docs.google.com/presentation/d/1-aVHsAwqwuMbl0oBIPIo6wa17ftfdI2D/edit?usp=sharing&ouid=108221024004844391819&rtpof=true&sd=true" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">.ipynb</span>
+                                    <h3 class="projects__title">Loan Approval Prediction - Various Machine Learning Modelsn</h3>
+                                    <a href="https://github.com/rusevaz/loan-approval-prediction/blob/main/main_2_0.ipynb" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project6.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Google Data Studio</span>
+                                    <h3 class="projects__title">Sales Dashboard</h3>
+                                    <a href="https://lookerstudio.google.com/reporting/c18f3fc9-c33b-437b-85bc-b4b317601407" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project7.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Tableau</span>
+                                    <h3 class="projects__title">Sales Dashboard</h3>
+                                    <a href="https://public.tableau.com/views/C-LevelKPIDashboard/HighLevelMetrics?:language=en-US&:display_count=n&:origin=viz_share_link" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project8.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">.slide</span>
+                                    <h3 class="projects__title">EDA Analysis - RevoU Virtual Lab</h3>
+                                    <a href="https://docs.google.com/presentation/d/1bdx1mGh6oXediME2v_zksyVQbeYcBTX1tUYJxUOQp9o/edit?usp=sharing" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Data Analyst
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Exploratory Data Analysis</h3>
+                                            <span class="skills__level">Advance</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Data Wrangling</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Cohort Analysis</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Funnel Analysis</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Churn Analysis</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Create Dashboard</h3>
+                                            <span class="skills__level">Power BI, Tableau, Google Data Studio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Machine Learning
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Regression</h3>
+                                            <span class="skills__level">Simple Linear, Multi Linear, Polynomial</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Classification</h3>
+                                            <span class="skills__level">K-Nearest Neighbors, Decision Trees, Logistic Regression, Support Vector Machines</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Clustering</h3>
+                                            <span class="skills__level">K-Means, Hierarchical, DBSCAN, RFM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Recommender System</h3>
+                                            <span class="skills__level">Content Based, Collaborative Filtering</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Python</h3>
+                                            <span class="skills__level">Numpy, Pandas, SciPy, Matplotlib, Seaborn, Scikit Learn</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">SQL</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Ruseva. All rigths reserved
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
